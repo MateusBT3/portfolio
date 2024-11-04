@@ -1,5 +1,5 @@
 import Botao from "./Botao";
-import Pato from "../assets/pato.png"
+import Eu from "../assets/eu.png"
 
 function HeroSection() {
     return (
@@ -11,7 +11,7 @@ function HeroSection() {
                     <Botao link="#contato" content="Fale comigo!"/>
                 </div>
                 <div className="w-1/2 flex justify-end">
-                    <img src={Pato} width="350px" />
+                    <img src={Eu} width="500px" />
                 </div>
             </div>
         </section>
