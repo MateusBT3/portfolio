@@ -24,7 +24,7 @@ function ContactForm() {
   }
 
   return (
-    <form className="bgTec bg-blend-multiply hover:shadow-2xl hover:ease-in-out p-6 bg-primary-900 rounded-lg text-white w-1/3 shadow-md">
+    <form className="bgTec lg:w-1/3 md:w-1/2 w-full bg-blend-multiply hover:shadow-2xl hover:ease-in-out p-6 bg-primary-900 rounded-lg text-white shadow-md">
       <div className="mb-4">
         <label htmlFor="name">Nome Completo</label>
         <input

@@ -23,17 +23,13 @@ function AboutSection() {
 
             <div className="container text-center flex flex-col py-16">
                 <h1 className=" text-5xl pb-4 font-semibold text-primary-900 hover:text-teal-300">Tecnologias</h1>
-                <div className="flex items-center justify-center">
+                <div className="flex flex-wrap items-center justify-center">
                     <Technology img={"devicon-html5-plain-wordmark colored"} />
                     <Technology img={"devicon-css3-plain-wordmark colored"} />
                     <Technology img={"devicon-javascript-plain colored"} />
-                </div>
-                <div className="flex items-center justify-center">
                     <Technology img={"devicon-nodejs-plain-wordmark colored"} />
                     <Technology img={"devicon-react-original-wordmark colored"} />
                     <Technology img={"devicon-tailwindcss-plain-wordmark colored"} />
-                </div>
-                <div className="flex items-center justify-center">
                     <Technology img={"devicon-canva-original colored"} />
                     <Technology img={"devicon-vscode-plain-wordmark colored"} />
                     <Technology img={"devicon-windows11-original-wordmark colored"} />
